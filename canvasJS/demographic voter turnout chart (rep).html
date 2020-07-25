@@ -10,6 +10,13 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	title:{
 		text: "Political Party vs Voter Turnout (by demographic group)"
 	},
+	toolTip: {
+      	  borderThickness: 10,
+      	  borderColor: "black",
+      	  cornerRadius: 15,
+          fontColor: "white",
+          backgroundColor: "black"
+    	},
 	axisX: {
 			title:"Republican Lean (%)",
 			suffix: "%",
@@ -34,6 +41,8 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		name: "Age",
 		toolTipContent: "<b>{name}</b><br/> % Republican: {x}% <br/> Voter Turnout: {y}% <br/> Size (millions): {z}",
         showInLegend: true,
+		markerBorderColor: "black",
+        markerBorderThickness: 1,
         dataPoints: [ //https://www.pewresearch.org/fact-tank/2018/04/03/millennials-approach-baby-boomers-as-largest-generation-in-u-s-electorate/
              //x = % republican, y = % voter turnout, z = size (millions) -->
             { x: 32, y: 51, z:30, name:"18-35 (Millennial)" },
