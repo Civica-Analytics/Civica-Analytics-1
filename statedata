@@ -207,8 +207,7 @@
 		gdp: 50816
 	},
 	{
-		state: "Flor
-		",
+		state: "Florida",
 		democrat: 42,
 		republican: 41,
 		lean: 1,
@@ -294,7 +293,7 @@
 		republican: 46,
 		lean: -7,
 		population: 1068778,
-		turnout: 60.7
+		turnout: 60.7,
 		gdp: 44145
 	},
 	{
