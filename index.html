@@ -1,164 +1,184 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>📈 Civica Analytics</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/sidebar-style.css">    
-  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>📈 Civica Analytics</title>
+    <link rel="shortcut icon" href="assets/images/civicalogotransparent.ico" />
+    <link
+      rel="apple-touch-icon"
+      href="assets/images/civicalogotransparent.png"
+    />
+    <link
+      rel="icon"
+      sizes="192x192"
+      href="assets/images/civicalogotransparent.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/sidebar-style.css" />
+    <script src="js/sidebar-script.js"></script>
+  </head>
 
-<body>
-  <a class="screen-reader-text" href="#mission">Skip to content</a>
-  <header>
-    <img class="logo1" src="assets/images/logo2.png" alt="Image of Logo1" > 
-    <nav>
-      <ul>
-        <button class="openbtn" onclick="openNav()">☰  Open Sidebar to View Graphs </button>
-        <li><a href="#mission">Our Mission</a></li>
-        <li><a href="#featured">Featured</a></li>
-        <li><a href="#updates">Updates</a></li>
-      </ul>
-    </nav>
-    <div class="cart"> 
-      <img class="cart-logo" src="assets/images/cart-icon.svg"  alt="Image of a cart" >
+  <body>
+    <a class="screen-reader-text" href="#mission">Skip to content</a>
+    <header>
+      <img class="logo1" src="assets/images/logo2.png" alt="Image of Logo1" />
+      <nav>
+        <ul>
+          <button class="openbtn" onclick="openNav()">
+            ☰ View Graphs
+          </button>
+          <li><a href="#mission">Our Mission</a></li>
+          <li><a href="#featured">Featured</a></li>
+          <li><a href="#updates">Updates</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="mySidebar" class="sidebar">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+      <br />
+      <br />
+      <a href="#page1">Republican Voter Demographics: Age, Education, Race </a>
+      <br />
+      <a href="#page2">Republican Chart Analysis</a>
+      <br />
+      <a href="#page3">Democratic Voter Demographics: Age, Education, Race</a>
+      <br />
+      <a href="#page4">Democratic Chart Analysis</a>
     </div>
-  </header>
 
-  <div id="mySidebar" class="sidebar">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-    <br> <br>
-    <a href="#page1">Republican Voter Demographics: Age, Education, Race </a>
-    <a href="#page2">Republican Chart Analysis</a>
-    <a href="#page3">Democratic Voter Demographics: Age, Education, Race</a>
-    <a href="#page4">Democratic Chart Analysis</a>
-  </div>
-
-  <div id="main">
-
-    <section class="frontpage">
-      <p class="frontpage-title">
-        Look at the correlations between voter turnout and political parties
-      </p>
-      <h1 class="frontpage-subtitle">
-        Civica Analytics
-      </h1>
-    </section>  
-    
-    <section class="mission" id="mission" tabindex="-1">
-      <h2>
-        Our Mission
-      </h2>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-        aliquip ex ea commodo consequat. Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
-        aliquip ex ea commodo consequat.
-      </p>
-    </section>
-    <br>
-
-    <section class="featured" id="featured"> 
-  
-      <section class="page1" id="page1">
-        <div> 
-          <h3>Republican Voter Demographics: Age, Education, Race <h3>
-          <script src="js/charts.js"></script>
-          <div>
-            <div id="chartContainer1" style="height: 600px; max-width: 900px; margin: 0px auto;"></div> 
-          </div> 
-        </div>
-      </section> 
-
-      <section class="page2" id="page2">
-        <div>
-          <h3>Republican Chart Analysis <h3>
-          <h4>Hover over the bubbles to take an in-depth look at the percentage breakdown of Republican voters and their 
-            numbers in the millions. Additionally, you can take a look at the percentage breakdown for the different 
-            possible education levels people in the party have: "High school diploma or less", "Some college or associate's 
-            degree", "Bachelor's degree", and "Advanced degree". You can also view the Republican voter breakdown of the 
-            different age demographics: "Millenials", "Gen X", "Boomer", and "Silent/Greatest" Generations. Lastly, the 
-            chart shows the percent breakdown of voters of different races: "White", "Black", "Asian", and 
-            "Hispanic/miscellaneous".
-          </h4>
-          <h4>How to analyze these charts: look at the bubbles by color and how they spread over the chart. Take race (red), 
-            for example. When comparing the x-axis, you'll find that White voters tend to be more Republican while Black 
-            voters tend to be less Republican. When looking at the y-axis, you'll find that both White and Black voters have 
-            a similar voter turnout rate, though the bubble for White voters is larger because when you hover over the bubble 
-            you'll notice that there are significantly more White voters than Black voters. 
-          </h4>
-        </div>
-      </section>
-
-      <section class="page3" id="page3">
-        <div>
-          <h3>Democratic Voter Demographics: Age, Education, Race <h3>
-          <script src="js/charts.js"></script>
-          <div>
-            <div id="chartContainer2" style="height: 600px; max-width: 900px; margin: 0px auto;"></div> 
-          </div>
-        </div>
-      </section> 
-
-      <section class="page4" id="page4">
-        <div>
-          <h3>Democratic Chart Analysis <h3>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-            labore et dolore magna aliqua.
-          </h4>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-            labore et dolore magna aliqua.
-          </h4>
-        </div>
-      </section>
-
-      
-    </section>
-
-    <br><br><br>
-
-    <section class="updates" id="updates">
-      <div>
-        <h2>Sign Up for Updates</h2>
-        <p class="updates-text">Stay updated on our latest product releases, be first to find out about upcoming sales, 
-          and get free style tips from our blog. Unsubscribe at any time.
+    <div id="main">
+      <section class="frontpage">
+        <p class="frontpage-title">
+          Look at the correlations between voter turnout and political parties
         </p>
-      </div>
-      <form>
-        <input type="email" name="Email" placeholder="Your E-Mail"/>
-        <button class="button">Subscribe</button>
-      </form>
-    </section>
+        <h1 class="frontpage-subtitle">
+          Civica Analytics
+        </h1>
+      </section>
 
-    <div class="statistics">
-        <div id="box1">
-          <p><span class="statsnumbers">4</span><br />HACKERS</p>
+      <section class="mission" id="mission" tabindex="-1">
+        <h2>
+          Our Mission
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Dolor sit amet, consectetur
+          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+          ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </section>
+
+      <br />
+
+      <section class="featured" id="featured">
+        <section class="page1" id="page1">
+          <h3>Republican Voter Demographics: Age, Education, Race</h3>
+          <script src="js/chart1.js"></script>
+          <div
+            id="chartContainer"
+            style="height: 600px; max-width: 900px; margin: 0px auto;"
+          ></div>
+        </section>
+
+        <section class="page2" id="page2">
+          <h3>Republican Chart Analysis</h3>
+          <h4>
+            Hover over the bubbles to take an in-depth look at the percentage
+            breakdown of Republican voters and their numbers in the millions.
+            Additionally, you can take a look at the percentage breakdown for
+            the different possible education levels people in the party have:
+            "High school diploma or less", "Some college or associate's degree",
+            "Bachelor's degree", and "Advanced degree". You can also view the
+            Republican voter breakdown of the different age demographics:
+            "Millenials", "Gen X", "Boomer", and "Silent/Greatest" Generations.
+            Lastly, the chart shows the percent breakdown of voters of different
+            races: "White", "Black", "Asian", and "Hispanic/miscellaneous".
+          </h4>
+          <h4>
+            How to analyze these charts: look at the bubbles by color and how
+            they spread over the chart. Take race (red), for example. When
+            comparing the x-axis, you'll find that White voters tend to be more
+            Republican while Black voters tend to be less Republican. When
+            looking at the y-axis, you'll find that both White and Black voters
+            have a similar voter turnout rate, though the bubble for White
+            voters is larger because when you hover over the bubble you'll
+            notice that there are significantly more White voters than Black
+            voters.
+          </h4>
+        </section>
+
+        <section class="page3" id="page3">
+          <h3>Democratic Voter Demographics: Age, Education, Race</h3>
+          <script src="js/chart2.js"></script>
+          <div
+            id="chartContainer2"
+            style="height: 600px; max-width: 900px; margin: 0px auto;"
+          ></div>
+        </section>
+        <section>
+          <section class="page4" id="page4">
+            <h3>Democratic Chart Analysis</h3>
+            <h4>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </h4>
+            <h4>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </h4>
+          </section>
+
+          <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+        </section>
+      </section>
+
+      <br /><br /><br />
+
+      <section class="updates" id="updates">
+        <div>
+          <h2>Sign Up for Updates</h2>
+          <p class="updates-text">
+            Stay updated on our latest product releases, be first to find out
+            about upcoming sales, and get free style tips from our blog.
+            Unsubscribe at any time.
+          </p>
         </div>
-        <div id="box2">
-          <p><span class="statsnumbers">7</span><br />DAYS</p>
-        </div>
-        <div id="box3">
-          <p><span class="statsnumbers">1</span><br />AMAZING WEBSITE</p>
-        </div>
-        <div id="box4">
-          <p><span class="statsnumbers">4</span><br />INCREDIBLE GRAPHS</p>
-        </div>
+        <form>
+          <input type="email" name="Email" placeholder="Your E-Mail" />
+          <button class="button">Subscribe</button>
+        </form>
+      </section>
     </div>
-
-    <footer>
-      <br><br>
-      <img
-        class="footerlogo"
-        src="assets/images/logo2.png"
-        alt="Image of Logo1"/>
-      <p>
-        Website made with HTML, CSS, and JS <br />
-        Made with ❤ by Anahita, Kayley, Natalie, & Swarnya <br /><br />
-      </p>
-    </footer>
-  </div>
-  <script src="js/sidebar-script.js"></script>
-</body>
-</html> 
+    <div class="statistics">
+      <div id="box1">
+        <p><span class="statsnumbers">4</span><br />HACKERS</p>
+      </div>
+      <div id="box2">
+        <p><span class="statsnumbers">7</span><br />DAYS</p>
+      </div>
+      <div id="box3">
+        <p><span class="statsnumbers">1</span><br />AMAZING WEBSITE</p>
+      </div>
+      <div id="box4">
+        <p><span class="statsnumbers">4</span><br />INCREDIBLE GRAPHS</p>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <br /><br />
+    <img
+      class="footerlogo"
+      src="assets/images/logo2.png"
+      alt="Image of Logo1"
+    />
+    <p>
+      Website made with HTML, CSS, and JS <br />
+      Made with ❤ by Anahita, Kayley, Natalie, & Swarnya<br /><br />
+    </p>
+  </footer>
+</html>
