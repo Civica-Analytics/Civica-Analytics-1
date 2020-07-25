@@ -401,14 +401,15 @@ input {
 }
 
 .sources {
-  background-color: #e5eef3;
+  background-color: #ccdbe4;
 }
 
 .sourcetitle{
-  color: #08068a;
+  color: #04033b;
   font-family: 'Raleway', Arial, Helvetica, sans-serif;
   font-size: 36px;
   text-align: center;
+  font-weight: 1000;
 }
 
 .linkboxbtn{
@@ -418,7 +419,7 @@ input {
     font-size: 18px;
     cursor: pointer;
     background-color:#ffffff;
-    color: #08068a;
+    color: #04033b;
     padding: 10px 10px;
     border: none;
 }
@@ -438,12 +439,13 @@ input {
   margin-top: 2em;
   text-align: center;
   font-size: 2vw;
+  height: 150px;
 }
 
 .statsnumbers {
   font-size: 3vw;
-  font-weight: 900 !important;
-  color: #0d0d82 !important;
+  font-weight: 1000 !important;
+  color: #04033b !important;
 }
 
 
@@ -452,6 +454,8 @@ input {
   margin: 6px;
   padding: 6px;
   text-align: center;
+  height: 50px;
+  font-weight: 500;
 }
 
 .footerlogo {
@@ -474,7 +478,7 @@ footer {
 }
 
 .about {
-  background-color: #dcdcec;
+  background-color: rgb(150, 183, 206);
 }
 
 
