@@ -1,0 +1,594 @@
+<!DOCTYPE HTML>
+<html>
+<head>  
+<script>
+window.onload = function () {
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	zoomEnabled: true,
+	theme: "light2",
+	axisX: {
+		title:"Percent of Whites",
+		suffix: "%",
+		gridThickness: 1
+	},
+	axisY:{
+		title: "Population",
+		suffix: "",
+	},
+	toolTip: {
+      	  borderThickness: 10,
+      	  borderColor: "black",
+      	  cornerRadius: 15,
+          fontColor: "white",
+          backgroundColor: "black"
+    },
+	data: [{
+		type: "scatter",
+		markerBorderColor: "black",
+        markerBorderThickness: 1,
+		toolTipContent: "<b>{state}</b><br/>Democrat: {democrat}% <br/>Republican: {republican}%<br/>Population: {y}<br/>GDP per capita: ${gdp}<br/>Percent white: {x}%",
+		dataPoints: [
+	{
+		state: "Massachusetts",
+		democrat: 56,
+		republican: 27,
+		lean: 29,
+		y: 6949503,
+		turnout: 53.7,
+		gdp: 75258,
+		x: 71,
+		color: "blue"
+	},
+	{
+		state: "Vermont",
+		democrat: 55,
+		republican: 30,
+		lean: 25,
+		y: 623989,
+		turnout: 54.8,
+		gdp: 48855,
+		x: 93,
+		color: "blue"
+	},	
+	{
+		state: "Hawaii",
+		democrat: 54,
+		republican: 29,
+		lean: 25,
+		y: 1415872,
+		turnout: 38.7,
+		gdp: 58981,
+		x: 21,
+		color: "blue"
+	},	
+	{
+		state: "New York",
+		democrat: 53,
+		republican: 30,
+		lean: 23,
+		y: 19453561,
+		turnout: 44.8,
+		gdp: 75131,
+		x: 55,
+		color: "blue"
+	},	
+	{
+		state: "Maryland",
+		democrat: 54,
+		republican: 31,
+		lean: 23,
+		y: 6045680,
+		turnout: 53.5,
+		gdp: 61926,
+		x: 50,
+		color: "blue"
+	},
+	{
+		state: "California",
+		democrat: 51,
+		republican: 31,
+		lean: 20,
+		y: 39512223,
+		turnout: 48.3,
+		gdp: 70662,
+		x: 37,
+		color: "blue"
+	},
+	{
+		state: "Connecticut",
+		democrat: 52,
+		republican: 33,
+		lean: 19,
+		y: 3565287,
+		turnout: 54.2,
+		gdp: 69789,
+		x: 66,
+		color: "blue"
+	},
+	{
+		state: "Illinois",
+		democrat: 50,
+		republican: 34,
+		lean: 16,
+		y: 12671821,
+		turnout: 50.8,
+		gdp: 61713,
+		x: 61,
+		color: "blue"
+	},
+	{
+		state: "New Jersey",
+		democrat: 50,
+		republican: 35,
+		lean: 15,
+		y: 8882190,
+		turnout: 52.2,
+		gdp: 63492,
+		x: 55,
+		color: "blue"
+	},
+	{
+		state: "Washington",
+		democrat: 50,
+		republican: 35,
+		lean: 15,
+		y: 7614893,
+		turnout: 57.4,
+		gdp: 69761,
+		x: 68,
+		color: "blue"
+	},
+	{
+		state: "Maine",
+		democrat: 50,
+		republican: 37,
+		lean: 13,
+		y: 1344212,
+		turnout: 58.8,
+		gdp: 43541,
+		x: 93,
+		color: "blue"
+	},
+	{
+		state: "Delaware",
+		democrat: 48,
+		republican: 35,
+		lean: 13,
+		y: 973764,
+		turnout: 50.8,
+		gdp: 64985,
+		x: 62,
+		color: "blue"
+	},
+	{
+		state: "New Hampshire",
+		democrat: 48,
+		republican: 36,
+		lean: 12,
+		y: 1316470,
+		turnout: 53.3,
+		gdp: 57272,
+		x: 90,
+		color: "blue"
+	},
+	{
+		state: "New Mexico",
+		democrat: 48,
+		republican: 38,
+		lean: 10,
+		y: 2096829,
+		turnout: 46.5,
+		gdp: 46304,
+		x: 37,
+		color: "blue"
+	},
+	{
+		state: "Oregon",
+		democrat: 47,
+		republican: 38,
+		lean: 9,
+		y: 4217737,
+		turnout: 59.7,
+		gdp: 52726,
+		x: 75,
+		color: "blue"
+	},
+	{
+		state: "Minnesota",
+		democrat: 46,
+		republican: 38,
+		lean: 8,
+		y: 5639632,
+		turnout: 63.8,
+		gdp: 60066,
+		x: 80,
+		color: "blue"
+	},
+	{
+		state: "Rhode Island",
+		democrat: 43,
+		republican: 36,
+		lean: 7,
+		y: 1059361,
+		turnout: 47.0,
+		gdp: 51963,
+		x: 72,
+		color: "blue"
+	},
+	{
+		state: "Virginia",
+		democrat: 46,
+		republican: 39,
+		lean: 7,
+		y: 8535519,
+		turnout: 54.3,
+		gdp: 56938,
+		x: 62,
+		color: "blue"
+	},
+	{
+		state: "Colorado",
+		democrat: 47,
+		republican: 40,
+		lean: 7,
+		y: 5758736,
+		turnout: 60.0,
+		gdp: 61311,
+		x: 68,
+		color: "blue"
+	},
+	{
+		state: "Nevada",
+		democrat: 45,
+		republican: 38,
+		lean: 7,
+		y: 3080156,
+		turnout: 46.3,
+		gdp: 50043,
+		x: 49,
+		color: "blue"
+	},
+	{
+		state: "Pennsylvania",
+		democrat: 46,
+		republican: 40,
+		lean: 6,
+		y: 12801989,
+		turnout: 51.4,
+		gdp: 56868,
+		x: 76,
+		color: "blue"
+	},
+	{
+		state: "Michigan",
+		democrat: 45,
+		republican: 39,
+		lean: 6,
+		y: 9986857,
+		turnout: 56.5,
+		gdp: 47448,
+		x: 75,
+		color: "blue"
+	},
+	{
+		state: "Georgia",
+		democrat: 43,
+		republican: 42,
+		lean: 1,
+		y: 10617423,
+		turnout: 53.9,
+		gdp: 50816,
+		x: 52,
+		color: "x"
+	},
+	{
+		state: "Florida",
+		democrat: 42,
+		republican: 41,
+		lean: 1,
+		y: 21477737,
+		turnout: 53.6,
+		gdp: 44267,
+		x: 53,
+		color: "x"
+	},
+	{
+		state: "Wisconsin",
+		democrat: 43,
+		republican: 43,
+		lean: 0,
+		y: 5822434,
+		turnout: 61.4,
+		gdp: 52534,
+		x: 81,
+		color: "x"
+	},
+	{
+		state: "Iowa",
+		democrat: 42,
+		republican: 42,
+		lean: 0,
+		y: 3155070,
+		turnout: 57.6,
+		gdp: 55051,
+		x: 86,
+		color: "x"
+	},
+	{
+		state: "Arizona",
+		democrat: 41,
+		republican: 41,
+		lean: 0,
+		y: 7278717,
+		turnout: 46.9,
+		gdp: 44161,
+		x: 54,
+		color: "x"
+	},
+	{
+		state: "Nebraska",
+		democrat: 42,
+		republican: 43,
+		lean: -1,
+		y: 1934408,
+		turnout: 50.9,
+		gdp: 59386,
+		x: 79,
+		color: "x"
+	},
+	{
+		state: "North Carolina",
+		democrat: 41,
+		republican: 42,
+		lean: -1,
+		y: 10488084,
+		turnout: 48.2,
+		gdp: 48496,
+		x: 63,
+		color: "x"
+	},
+	{
+		state: "Kentucky",
+		democrat: 42,
+		republican: 45,
+		lean: -3,
+		y: 4467673,
+		turnout: 47.4,
+		gdp: 42386,
+		x: 85,
+		color: "x"
+	},
+	{
+		state: "Texas",
+		democrat: 39,
+		republican: 42,
+		lean: -3,
+		y: 28995881,
+		turnout: 45.6,
+		gdp: 61682,
+		x: 41,
+		color: "x"
+	},
+	{
+		state: "Ohio",
+		democrat: 41,
+		republican: 45,
+		lean: -4,
+		y: 11689100,
+		turnout: 50.2,
+		gdp: 52664,
+		x: 79,
+		color: "x"
+	},
+	{
+		state: "Montana",
+		democrat: 39,
+		republican: 46,
+		lean: -7,
+		y: 1068778,
+		turnout: 60.7,
+		gdp: 44145,
+		x: 86,
+		color: "red"
+	},
+	{
+		state: "Indiana",
+		democrat: 38,
+		republican: 46,
+		lean: -8,
+		y: 6732219,
+		turnout: 46.0,
+		gdp: 49321,
+		x: 79,
+		color: "red"
+	},
+	{
+		state: "Louisiana",
+		democrat: 37,
+		republican: 45,
+		lean: -8,
+		y: 4648794,
+		turnout: 43.4,
+		gdp: 51729,
+		x: 59,
+		color: "red"
+	},
+	{
+		state: "Oklahoma",
+		democrat: 38,
+		republican: 46,
+		lean: -8,
+		y: 3956971,
+		turnout: 41.9,
+		gdp: 50876,
+		x: 65,
+		color: "red"
+	},
+	{
+		state: "Missouri",
+		democrat: 38,
+		republican: 47,
+		lean: -9,
+		y: 6137428,
+		turnout: 53.3,
+		gdp: 47407,
+		x: 80,
+		color: "red"
+	},
+	{
+		state: "South Carolina",
+		democrat: 37,
+		republican: 47,
+		lean: -10,
+		y: 5148714,
+		turnout: 44.0,
+		gdp: 41457,
+		x: 64,
+		color: "red"
+	},
+	{
+		state: "South Dakota",
+		democrat: 40,
+		republican: 51,
+		lean: -11,
+		y: 884659,
+		turnout: 52.8,
+		gdp: 52913,
+		x: 82,
+		color: "red"
+	},
+	{
+		state: "Kansas",
+		democrat: 36,
+		republican: 47,
+		lean: -11,
+		y: 2913314,
+		turnout: 41.0,
+		gdp: 53528,
+		x: 76,
+		color: "red"
+	},
+	{
+		state: "West Virginia",
+		democrat: 37,
+		republican: 49,
+		lean: -12,
+		y: 1792147,
+		turnout: 41.7,
+		gdp: 40265,
+		x: 92,
+		color: "red"
+	},
+	{
+		state: "Mississippi",
+		democrat: 36,
+		republican: 48,
+		lean: -12,
+		y: 2976149,
+		turnout: 42.7,
+		gdp: 35015,
+		x: 57,
+		color: "red"
+	},
+	{
+		state: "Tennessee",
+		democrat: 35,
+		republican: 48,
+		lean: -13,
+		y: 6833174,
+		turnout: 44.2,
+		gdp: 48440,
+		x: 74,
+		color: "red"
+	},
+	{
+		state: "Arkansas",
+		democrat: 35,
+		republican: 48,
+		lean: -13,
+		y: 3017825,
+		turnout: 41.0,
+		gdp: 39580,
+		x: 72,
+		color: "red"
+	},
+	{
+		state: "Idaho",
+		democrat: 34,
+		republican: 50,
+		lean: -16,
+		y: 1787065,
+		turnout: 53.6,
+		gdp: 40566,
+		x: 82,
+		color: "red"
+	},
+	{
+		state: "Alabama",
+		democrat: 35,
+		republican: 52,
+		lean: -17,
+		y: 4903185,
+		turnout: 46.9,
+		gdp: 41389,
+		x: 66,
+		color: "red"
+	},
+	{
+		state: "Alaska",
+		democrat: 33,
+		republican: 51,
+		lean: -18,
+		y: 731545,
+		turnout: 54.5,
+		gdp: 74422,
+		x: 60,
+		color: "red"
+	},
+	{
+		state: "North Dakota",
+		democrat: 30,
+		republican: 55,
+		lean: -25,
+		y: 762062,
+		turnout: 57.9,
+		gdp: 70991,
+		x: 84,
+		color: "red"
+	},
+	{
+		state: "Utah",
+		democrat: 28,
+		republican: 56,
+		lean: -28,
+		y: 3205958,
+		turnout: 49.8,
+		gdp: 51407,
+		x: 78,
+		color: "red"
+	},
+	{
+		state: "Wyoming",
+		democrat: 25,
+		republican: 59,
+		lean: -34,
+		y: 578759,
+		turnout: 47.4,
+		gdp: 67915,
+		x: 84,
+		color: "red"
+	},
+]	
+	}]
+});
+chart.render();
+
+}
+</script>
+</head>
+<body>
+<div id="chartContainer" style="height: 100%; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>
