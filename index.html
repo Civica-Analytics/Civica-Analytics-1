@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Civica Analytics</title>
+  <title>📈 Civica Analytics</title>
   <link rel="shortcut icon" href="assets/images/civicalogotransparent.ico" />
     <link
       rel="apple-touch-icon"
@@ -25,9 +25,10 @@
     <img class="logo1" src="assets/images/logo2.png" alt="Image of Logo1" > 
     <nav>
       <ul>
-        <button class="openbtn" onclick="openNav()">☰ View Graphs</button>
+        <button class="openbtn" onclick="openNav()">☰  Open Sidebar to View Graphs </button>
         <li><a href="#mission">Our Mission</a></li>
         <li><a href="#featured">Featured</a></li>
+        <li><a href="#sources">Sources</a></li>
         <li><a href="#about">About</a></li>
       </ul>
     </nav>
@@ -51,15 +52,18 @@
   </div>
 
   <div id="main">
+
     <section class="mission" id="mission" tabindex="-1">
       <h2>
         A beautiful visualization of United States demographics.
       </h2>
     </section>
+    
     <br>
+
     <section class="featured" id="featured"> 
-      
-      <section class="page1 chart" id="page1">
+  
+      <section class="page1" id="page1">
         <div> 
           <h3 style="text-indent:10px;">Republican Voter Demographics: Age, Education, Race <h3>
           <script src="js/charts.js"></script>
@@ -69,7 +73,7 @@
         </div>
       </section> 
 
-      <section class="page3 chart" id="page3">
+      <section class="page3" id="page3">
         <div>
           <h3 style="text-indent:10px;">Democratic Voter Demographics: Age, Education, Race <h3>
           <script src="js/charts.js"></script>
@@ -79,7 +83,7 @@
         </div>
       </section> 
 
-      <section class="page5 chart" id="page5">
+      <section class="page5" id="page5">
         <div> 
           <h3 style="text-indent:10px;">Democratic Voter Turnout by State<h3>
           <script src="js/charts.js"></script>
@@ -89,7 +93,7 @@
         </div>
       </section> 
 
-      <section class="page6 chart" id="page6">
+      <section class="page6" id="page6">
         <div> 
           <h3 style="text-indent:10px;">Democratic Voter Population<h3>
           <script src="js/charts.js"></script>
@@ -99,7 +103,7 @@
         </div>
       </section>
 
-      <section class="page7 chart" id="page7">
+      <section class="page7" id="page7">
         <div> 
           <h3 style="text-indent:10px;">Democratic Voter GDP Per Capita<h3>
           <script src="js/charts.js"></script>
@@ -109,7 +113,7 @@
         </div>
       </section> 
 
-      <section class="page8 chart" id="page8">
+      <section class="page8" id="page8">
         <div> 
           <h3 style="text-indent:10px;">Democratic Voter White Demographics<h3>
           <script src="js/charts.js"></script>
@@ -118,10 +122,53 @@
           </div> 
         </div>
       </section> 
+
     </section>
 
-    <br><br><br>
+    <br>
 
+  <section class="sources" id="sources">
+    <br>
+    <div class="sourcetitle">Sources & Links </div>
+    <div class="links">
+        <div id="linkbox1">
+          <img class="linkboxpic" src="assets/images/linkbox1pic.jpg" alt="US Census Bureau"> 
+          <div class="linkbox">
+            <button class="linkboxbtn" onclick="window.location.href='https://www.census.gov/data/tables/time-series/demo/popest/2010s-state-total.html';">
+              US Census Bureau
+            </button>
+          </div>
+        </div>
+        <div id="linkbox2">
+          <img class="linkboxpic" src="assets/images/linkboxpic2.jpg" alt="US Elections Project"> 
+          <div class="linkbox">
+            <button class="linkboxbtn" onclick="window.location.href='http://www.electproject.org/2018g';">
+              US Elections Project
+            </button>
+          </div>
+        </div>
+        <div id="linkbox3">
+          <img class="linkboxpic" src="assets/images/linkboxpic3.png" alt="Kaiser Family Foundation"> 
+          <div class="linkbox">
+            <button class="linkboxbtn" onclick="window.location.href='https://www.kff.org/other/state-indicator/distribution-by-raceethnicity/?currentTimeframe=0&sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D';">
+              Kaiser Family Foundation
+            </button>
+          </div>
+        </div>
+        <div id="linkbox4">
+          <img class="linkboxpic" src="assets/images/linkboxpic4.jpg" alt="Gallup News"> 
+          <div class="linkbox">
+            <button class="linkboxbtn" onclick="window.location.href='https://news.gallup.com/poll/247025/democratic-states-exceed-republican-states-four-2018.aspx';">
+              Gallup News
+            </button>
+          </div>
+        </div>
+    </div>
+    <br><br>
+  </section>
+
+  <section class="about" id="about">
+    <br>
     <div class="statistics">
         <div id="box1">
           <p><span class="statsnumbers">4</span><br />HACKERS</p>
@@ -130,26 +177,26 @@
           <p><span class="statsnumbers">7</span><br />DAYS</p>
         </div>
         <div id="box3">
-          <p><span class="statsnumbers">1</span><br />AMAZING ANALYTICS WEBSITE</p>
+          <p><span class="statsnumbers">1</span><br />AMAZING WEBSITE</p>
         </div>
         <div id="box4">
-          <p><span class="statsnumbers">6</span><br />INCREDIBLE DATA VISUALIZATIONS</p>
+          <p><span class="statsnumbers">4</span><br />INCREDIBLE GRAPHS</p>
         </div>
     </div>
-    <section class="about" id="about">
-    <footer>
-      <br><br>
-      <img
-        class="footerlogo"
-        src="assets/images/logo2.png"
-        alt="Image of Logo1"/>
-      <p>
-        Made with ❤ by Anahita, Kayley, Natalie, & Swarnya <br /><br />
-      </p>
-    </footer>
+
+      <footer>
+        <br><br>
+        <img
+          class="footerlogo"
+          src="assets/images/logo2.png"
+          alt="Image of Logo1"/>
+        <p>
+          Made with ❤ by Anahita, Kayley, Natalie, & Swarnya <br /><br />
+        </p>
+      </footer>
     </section>    
   </div>
-          
+
   <script src="js/sidebar-script.js"></script>
 </body>
 </html> 
