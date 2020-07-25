@@ -408,7 +408,7 @@ footer {
 }
 
 .chart {
-	background-color: #bcc4f1;
+	background-color: linear-gradient(to right, #a0ccd3, #b1a3e4);
 	border-radius: 30px;
 	margin: 150px 50px 150px 50px;
 }
