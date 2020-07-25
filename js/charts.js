@@ -13,7 +13,7 @@ var chart = new CanvasJS.Chart("chartContainer1", {
 	axisX: {
 			title:"Republican Lean (%)",
 			labelFontSize: 15,
-			titleFontSize: 15,
+			titleFontSize: 20,
 			suffix: "%",
 			minimum: 0,
 			maximum: 100,
