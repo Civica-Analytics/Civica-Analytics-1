@@ -407,5 +407,11 @@ footer {
   color: #c1f7dc;
 }
 
+.chart {
+	background-color: #bcc4f1;
+	border-radius: 30px;
+	margin: 150px 50px 150px 50px;
+}
+
 
 
