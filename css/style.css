@@ -9,6 +9,17 @@
 	font-weight: 500;
 	font-style: normal;
 }
+/*
+@font-face {
+	font-family: 'Raleway';
+	src: url('../assets/fonts/Raleway-Light.eot');
+	src: url('../assets/fonts/Raleway-Light.eot?#iefix') format('embedded-opentype'),
+		url('../assets/fonts/Raleway-Light.woff2') format('woff2'),
+		url('../assets/fonts/Raleway-Light.ttf') format('truetype'),
+		url('../assets/fonts/Raleway-Light.svg#Raleway-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}*/
 
 @font-face {
 	font-family: 'Playfair Display';
@@ -87,7 +98,7 @@ header {
 }
 
 .logo1 {
-    max-width:25%;
+    max-width:250px;
     -webkit-box-flex: 1;
         -ms-flex: 1 1;
             flex: 1 1;
@@ -96,6 +107,7 @@ header {
             order: 1;
     padding: 0 0 0 0;
 }
+
 
 nav {
   display: -webkit-box;
@@ -202,7 +214,7 @@ nav a {
   text-align: center;
   line-height: 50px;
   font-size: 20px;
-  background-color: #bcc4f1;
+  background-image: linear-gradient(to right, #a0ccd3, #b1a3e4);
 
 }
 
@@ -294,8 +306,6 @@ nav a {
       -ms-flex-align: center;
           align-items: center;
   background-image: linear-gradient(to right, #76d7e8, #7d58ed);
-  margin-right: 7.5%;
-  margin-left: 7.5%;
 }
 
 .updates div {
