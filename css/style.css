@@ -410,7 +410,8 @@ footer {
 .chart {
 	background-color: linear-gradient(to right, #a0ccd3, #b1a3e4);
 	border-radius: 30px;
-	margin: 150px 50px 150px 50px;
+	margin: 150px 20px 150px 20px;
+	padding: 30px 30px 30px 30px;
 }
 
 
