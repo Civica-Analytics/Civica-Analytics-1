@@ -19,7 +19,7 @@ body {
 .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 30px; /*more readable*/
     text-transform: uppercase;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
     color: #ffffff;
