@@ -12,6 +12,8 @@ var chart = new CanvasJS.Chart("chartContainer1", {
     	},
 	axisX: {
 			title:"Republican Lean (%)",
+			labelFontSize: 15,
+			titleFontSize: 20,
 			suffix: "%",
 			minimum: 0,
 			maximum: 100,
@@ -104,6 +106,8 @@ function toggleDataSeries(e){
     	},
 	axisX: {
 			title:"Democratic Lean (%)",
+			labelFontSize: 15,
+			titleFontSize: 20,
 			suffix: "%",
 			minimum: 0,
 			maximum: 100,
@@ -193,6 +197,8 @@ function toggleDataSeries(e){
         theme: "light2",
         axisX: {
             title:"Voter Turnout",
+	    labelFontSize: 15,
+	    titleFontSize: 20,
             suffix: "%",
             gridThickness: 1
         },
