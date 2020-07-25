@@ -5,7 +5,8 @@
 		republican: 27,
 		lean: 29,
 		population: 6949503,
-		turnout: 53.7
+		turnout: 53.7,
+		gdp: 75258
 	},
 	{
 		state: "Vermont",
@@ -13,7 +14,8 @@
 		republican: 30,
 		lean: 25,
 		population: 623989,
-		turnout: 54.8
+		turnout: 54.8,
+		gdp: 48855
 	},	
 	{
 		state: "Hawaii",
@@ -21,7 +23,8 @@
 		republican: 29,
 		lean: 25,
 		population: 1415872,
-		turnout: 38.7
+		turnout: 38.7,
+		gdp: 58981
 	},	
 	{
 		state: "New York",
@@ -29,7 +32,8 @@
 		republican: 30,
 		lean: 23,
 		population: 19453561,
-		turnout: 44.8
+		turnout: 44.8,
+		gdp: 75131
 	},	
 	{
 		state: "Maryland",
@@ -37,7 +41,8 @@
 		republican: 31,
 		lean: 23,
 		population: 6045680,
-		turnout: 53.5
+		turnout: 53.5,
+		gdp: 61926
 	},
 	{
 		state: "California",
@@ -45,7 +50,8 @@
 		republican: 31,
 		lean: 20,
 		population: 39512223,
-		turnout: 48.3
+		turnout: 48.3,
+		gdp: 70662
 	},
 	{
 		state: "Connecticut",
@@ -53,7 +59,8 @@
 		republican: 33,
 		lean: 19,
 		population: 3565287,
-		turnout: 54.2
+		turnout: 54.2,
+		gdp: 69789
 	},
 	{
 		state: "Illinois",
@@ -61,7 +68,8 @@
 		republican: 34,
 		lean: 16,
 		population: 12671821,
-		turnout: 50.8
+		turnout: 50.8,
+		gdp: 61713
 	},
 	{
 		state: "New Jersey",
@@ -69,7 +77,8 @@
 		republican: 35,
 		lean: 15,
 		population: 8882190,
-		turnout: 52.2
+		turnout: 52.2,
+		gdp: 63492
 	},
 	{
 		state: "Washington",
@@ -77,7 +86,8 @@
 		republican: 35,
 		lean: 15,
 		population: 7614893,
-		turnout: 57.4
+		turnout: 57.4,
+		gdp: 69761
 	},
 	{
 		state: "Maine",
@@ -85,7 +95,8 @@
 		republican: 37,
 		lean: 13,
 		population: 1344212,
-		turnout: 58.8
+		turnout: 58.8,
+		gdp: 43541
 	},
 	{
 		state: "Delaware",
@@ -93,7 +104,8 @@
 		republican: 35,
 		lean: 13,
 		population: 973764,
-		turnout: 50.8
+		turnout: 50.8,
+		gdp: 64985
 	},
 	{
 		state: "New Hampshire",
@@ -101,7 +113,8 @@
 		republican: 36,
 		lean: 12,
 		population: 1316470,
-		turnout: 53.3
+		turnout: 53.3,
+		gdp: 57272
 	},
 	{
 		state: "New Mexico",
@@ -109,7 +122,8 @@
 		republican: 38,
 		lean: 10,
 		population: 2096829,
-		turnout: 46.5
+		turnout: 46.5,
+		gdp: 46304
 	},
 	{
 		state: "Oregon",
@@ -117,7 +131,8 @@
 		republican: 38,
 		lean: 9,
 		population: 4217737,
-		turnout: 59.7
+		turnout: 59.7,
+		gdp: 52726
 	},
 	{
 		state: "Minnesota",
@@ -125,7 +140,8 @@
 		republican: 38,
 		lean: 8,
 		population: 5639632,
-		turnout: 63.8
+		turnout: 63.8,
+		gdp: 60066
 	},
 	{
 		state: "Rhode Island",
@@ -133,7 +149,8 @@
 		republican: 36,
 		lean: 7,
 		population: 1059361,
-		turnout: 47.0
+		turnout: 47.0,
+		gdp: 51963
 	},
 	{
 		state: "Virginia",
@@ -141,7 +158,8 @@
 		republican: 39,
 		lean: 7,
 		population: 8535519,
-		turnout: 54.3
+		turnout: 54.3,
+		gdp: 56938
 	},
 	{
 		state: "Colorado",
@@ -149,7 +167,8 @@
 		republican: 40,
 		lean: 7,
 		population: 5758736,
-		turnout: 60.0
+		turnout: 60.0,
+		gdp: 61311
 	},
 	{
 		state: "Nevada",
@@ -157,7 +176,8 @@
 		republican: 38,
 		lean: 7,
 		population: 3080156,
-		turnout: 46.3
+		turnout: 46.3,
+		gdp: 50043
 	},
 	{
 		state: "Pennsylvania",
@@ -165,7 +185,8 @@
 		republican: 40,
 		lean: 6,
 		population: 12801989,
-		turnout: 51.4
+		turnout: 51.4,
+		gdp: 56868
 	},
 	{
 		state: "Michigan",
@@ -173,7 +194,8 @@
 		republican: 39,
 		lean: 6,
 		population: 9986857,
-		turnout: 56.5
+		turnout: 56.5,
+		gdp: 47448
 	},
 	{
 		state: "Georgia",
@@ -181,15 +203,18 @@
 		republican: 42,
 		lean: 1,
 		population: 10617423,
-		turnout: 53.9
+		turnout: 53.9,
+		gdp: 50816
 	},
 	{
-		state: "Florida",
+		state: "Flor
+		",
 		democrat: 42,
 		republican: 41,
 		lean: 1,
 		population: 21477737,
-		turnout: 53.6
+		turnout: 53.6,
+		gdp: 44267
 	},
 	{
 		state: "Wisconsin",
@@ -197,7 +222,8 @@
 		republican: 43,
 		lean: 0,
 		population: 5822434,
-		turnout: 61.4
+		turnout: 61.4,
+		gdp: 52534
 	},
 	{
 		state: "Iowa",
@@ -205,7 +231,8 @@
 		republican: 42,
 		lean: 0,
 		population: 3155070,
-		turnout: 57.6
+		turnout: 57.6,
+		gdp: 55051
 	},
 	{
 		state: "Arizona",
@@ -213,7 +240,8 @@
 		republican: 41,
 		lean: 0,
 		population: 7278717,
-		turnout: 46.9
+		turnout: 46.9,
+		gdp: 44161
 	},
 	{
 		state: "Nebraska",
@@ -221,7 +249,8 @@
 		republican: 43,
 		lean: -1,
 		population: 1934408,
-		turnout: 50.9
+		turnout: 50.9,
+		gdp: 59386
 	},
 	{
 		state: "North Carolina",
@@ -229,7 +258,8 @@
 		republican: 42,
 		lean: -1,
 		population: 10488084,
-		turnout: 48.2
+		turnout: 48.2,
+		gdp: 48496
 	},
 	{
 		state: "Kentucky",
@@ -237,7 +267,8 @@
 		republican: 45,
 		lean: -3,
 		population: 4467673,
-		turnout: 47.4
+		turnout: 47.4,
+		gdp: 42386
 	},
 	{
 		state: "Texas",
@@ -245,7 +276,8 @@
 		republican: 42,
 		lean: -3,
 		population: 28995881,
-		turnout: 45.6
+		turnout: 45.6,
+		gdp: 61682
 	},
 	{
 		state: "Ohio",
@@ -253,7 +285,8 @@
 		republican: 45,
 		lean: -4,
 		population: 11689100,
-		turnout: 50.2
+		turnout: 50.2,
+		gdp: 52664
 	},
 	{
 		state: "Montana",
@@ -262,6 +295,7 @@
 		lean: -7,
 		population: 1068778,
 		turnout: 60.7
+		gdp: 44145
 	},
 	{
 		state: "Indiana",
@@ -269,7 +303,8 @@
 		republican: 46,
 		lean: -8,
 		population: 6732219,
-		turnout: 46.0
+		turnout: 46.0,
+		gdp: 49321
 	},
 	{
 		state: "Louisiana",
@@ -277,7 +312,8 @@
 		republican: 45,
 		lean: -8,
 		population: 4648794,
-		turnout: 43.4
+		turnout: 43.4,
+		gdp: 51729
 	},
 	{
 		state: "Oklahoma",
@@ -285,7 +321,8 @@
 		republican: 46,
 		lean: -8,
 		population: 3956971,
-		turnout: 41.9
+		turnout: 41.9,
+		gdp: 50876
 	},
 	{
 		state: "Missouri",
@@ -293,7 +330,8 @@
 		republican: 47,
 		lean: -9,
 		population: 6137428,
-		turnout: 53.3
+		turnout: 53.3,
+		gdp: 47407
 	},
 	{
 		state: "South Carolina",
@@ -301,7 +339,8 @@
 		republican: 47,
 		lean: -10,
 		population: 5148714,
-		turnout: 44.0
+		turnout: 44.0,
+		gdp: 41457
 	},
 	{
 		state: "South Dakota",
@@ -309,7 +348,8 @@
 		republican: 51,
 		lean: -11,
 		population: 884659,
-		turnout: 52.8
+		turnout: 52.8,
+		gdp: 52913
 	},
 	{
 		state: "Kansas",
@@ -317,7 +357,8 @@
 		republican: 47,
 		lean: -11,
 		population: 2913314,
-		turnout: 41.0
+		turnout: 41.0,
+		gdp: 53528
 	},
 	{
 		state: "West Virginia",
@@ -325,7 +366,8 @@
 		republican: 49,
 		lean: -12,
 		population: 1792147,
-		turnout: 41.7
+		turnout: 41.7,
+		gdp: 40265
 	},
 	{
 		state: "Mississippi",
@@ -333,7 +375,8 @@
 		republican: 48,
 		lean: -12,
 		population: 2976149,
-		turnout: 42.7
+		turnout: 42.7,
+		gdp: 35015
 	},
 	{
 		state: "Tennessee",
@@ -341,7 +384,8 @@
 		republican: 48,
 		lean: -13,
 		population: 6833174,
-		turnout: 44.2
+		turnout: 44.2,
+		gdp: 48440
 	},
 	{
 		state: "Arkansas",
@@ -349,7 +393,8 @@
 		republican: 48,
 		lean: -13,
 		population: 3017825,
-		turnout: 41.0
+		turnout: 41.0,
+		gdp: 39580
 	},
 	{
 		state: "Idaho",
@@ -357,7 +402,8 @@
 		republican: 50,
 		lean: -16,
 		population: 1787065,
-		turnout: 53.6
+		turnout: 53.6,
+		gdp: 40566
 	},
 	{
 		state: "Alabama",
@@ -365,7 +411,8 @@
 		republican: 52,
 		lean: -17,
 		population: 4903185,
-		turnout: 46.9
+		turnout: 46.9,
+		gdp: 41389
 	},
 	{
 		state: "Alaska",
@@ -373,7 +420,8 @@
 		republican: 51,
 		lean: -18,
 		population: 731545,
-		turnout: 54.5
+		turnout: 54.5,
+		gdp: 74422
 	},
 	{
 		state: "North Dakota",
@@ -381,7 +429,8 @@
 		republican: 55,
 		lean: -25,
 		population: 762062,
-		turnout: 57.9
+		turnout: 57.9,
+		gdp: 70991
 	},
 	{
 		state: "Utah",
@@ -389,7 +438,8 @@
 		republican: 56,
 		lean: -28,
 		population: 3205958,
-		turnout: 49.8
+		turnout: 49.8,
+		gdp: 51407
 	},
 	{
 		state: "Wyoming",
@@ -397,6 +447,7 @@
 		republican: 59,
 		lean: -34,
 		population: 578759,
-		turnout: 47.4
+		turnout: 47.4,
+		gdp: 67915
 	},
 ]	
