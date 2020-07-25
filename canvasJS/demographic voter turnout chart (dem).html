@@ -10,6 +10,13 @@ var chart = new CanvasJS.Chart("chartContainer", {
 	title:{
 		text: "Democratic Affliation vs Voter Turnout (by demographic group)"
 	},
+	toolTip: {
+      	  borderThickness: 10,
+      	  borderColor: "black",
+      	  cornerRadius: 15,
+          fontColor: "white",
+          backgroundColor: "black"
+    	},
 	axisX: {
 			title:"Democratic Lean (%)",
 			suffix: "%",
@@ -34,6 +41,8 @@ var chart = new CanvasJS.Chart("chartContainer", {
 		name: "Age",
 		toolTipContent: "<b>{name}</b><br/> % Democratic: {x}% <br/> Voter Turnout: {y}% <br/> Size (millions): {z}",
         showInLegend: true,
+	markerBorderColor: "black",
+        markerBorderThickness: 1,
         dataPoints: [ //
              /*x = % dem, y = % voter turnout, z = size (millions) 
              x: https://www.pewresearch.org/politics/2018/03/20/1-trends-in-party-affiliation-among-demographic-groups/
