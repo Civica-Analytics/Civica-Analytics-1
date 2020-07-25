@@ -1,39 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>📈 Civica Analytics</title>
-    <link rel="stylesheet" href="css/style.css">    
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>📈 Civica Analytics</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/sidebar-style.css">    
 </head>
 
 <body>
-    <a class="screen-reader-text" href="#mission">Skip to content</a>    
+  <a class="screen-reader-text" href="#mission">Skip to content</a>
   <header>
     <img class="logo1" src="assets/images/logo2.png" alt="Image of Logo1" > 
     <nav>
-        <ul>
-          <li><a href="#mission">Our Mission</a></li>
-          <li><a href="#featured">Featured</a></li>
-          <li><a href="#updates">Updates</a></li>
-          <li><a href="#signup">Sign Up</a></li>
-        </ul>
+      <ul>
+        <button class="openbtn" onclick="openNav()">☰  Open Sidebar to View Graphs </button>
+        <li><a href="#mission">Our Mission</a></li>
+        <li><a href="#featured">Featured</a></li>
+        <li><a href="#updates">Updates</a></li>
+        <li><a href="#signup">Sign Up</a></li>
+      </ul>
     </nav>
     <div class="cart"> 
       <img class="cart-logo" src="assets/images/cart-icon.svg"  alt="Image of a cart" >
     </div>
   </header>
 
-  <section class="frontpage">
-    <p class="frontpage-title">
-      Look at the correlations between voter turnout and political parties
-    </p>
-    <h1 class="frontpage-subtitle">
-      Civica Analytics
-    </h1>
-  </section>
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="#page1">Page 1</a>
+    <a href="#page2">Page 2</a>
+    <a href="#page3">Page 3</a>
+    <a href="#page4">Page 4</a>
+  </div>
 
-  <section class="mission" id="mission" tabindex="-1">
+  <div id="main">
+
+    <section class="frontpage">
+      <p class="frontpage-title">
+        Look at the correlations between voter turnout and political parties
+      </p>
+      <h1 class="frontpage-subtitle">
+        Civica Analytics
+      </h1>
+    </section>  
+    
+    <section class="mission" id="mission" tabindex="-1">
       <h2>
         Our Mission
       </h2>
@@ -44,17 +56,63 @@
         labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
         aliquip ex ea commodo consequat.
       </p>
-  </section>
+    </section>
 
-  <br>
-  <section class="featured" id="featured"> 
-    <script src="js/script.js"></script>
-    <div id="chartContainer" style="height: 300px; width: 100%;"></div>
-    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-  </section>
-  <br>
+    <br><br><br>
 
-  <section class="updates" id="updates">
+    <section class="featured" id="featured"> 
+      <script src="js/script.js"></script>
+      <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+      <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    </section>
+
+    <br><br><br>
+
+    <section class="page1" id="page1">
+      <h1>Welcome to Page 1! <h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+        aliquip ex ea commodo consequat. Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+        aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+      </p>
+    </section>
+
+    <section class="page2" id="page2">
+      <h1>Welcome to page 2! <h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+        labore et dolore magna aliqua. 
+      </p>
+    </section>
+
+    <section class="page3" id="page3">
+      <h1>Welcome to Page 3! <h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+        aliquip ex ea commodo consequat. Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+        aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+        labore et dolore magna aliqua. 
+      </p>
+    </section>
+
+    <section class="page4" id="page4">
+      <h1>Welcome to Page 4! <h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+        aliquip ex ea commodo consequat. Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+        aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+        aliquip ex ea commodo consequat. Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+        labore et dolore magna aliqua. 
+      </p>
+    </section>
+
+    <br><br><br>
+
+    <section class="updates" id="updates">
     <div>
       <h2>Sign Up for Updates</h2>
       <p class="updates-text">Stay updated on our latest product releases, be first to find out about upcoming sales, 
@@ -65,40 +123,10 @@
         <input type="email" name="Email" placeholder="Your E-Mail"/>
         <button class="button">Subscribe</button>
       </form>
-  </section>
+    </section>
 
-<!-- 
-  <section class="signup" id="signup"> 
-      <div class="signup">
-          <div class="form-box">
-              <div class="button-box">
-                  <div id="btn"></div>
-                  <button type="button" class="toggle-btn" onclick="login()">Login In</button>
-                  <button type="button" class="toggle-btn" onclick="register()">Register</button>
-              </div>
-              <div class="social-icons">
-                  <img src="assets/images/fb1.png">
-                  <img src="assets/images/tw1.png"> 
-                  <img src="assets/images/gp1.png">
-              </div>
+  </div>
 
-              <form id="login" class="input-group">
-                  <input type="type" class="input-field" placeholder="User Id" required>
-                  <input type="type" class="input-field" placeholder="Enter Password" required>
-                  <input type="checkbox" class="check-box"><span> Remember Password</span>
-                  <button type="submit" class="submit-btn">Log in</button>
-              </form>
-              <form id="register" class="input-group">
-                  <input type="type" class="input-field" placeholder="User Id" required>
-                  <input type="type" class="input-field" placeholder="Email ID" required>
-                  <input type="type" class="input-field" placeholder="Enter Password" required>
-                  <input type="checkbox" class="check-box"><span> I agree to the terms and conditions.</span>
-                  <button type="submit" class="submit-btn">Register</button>
-              </form>  
-          </div> 
-      </div>
-      <script src="js/login-script.js"></script>
-  </section> -->
-
+  <script src="js/sidebar-script.js"></script>
 </body>
-</html>
+</html> 
