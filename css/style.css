@@ -9,7 +9,7 @@
 	font-weight: 500;
 	font-style: normal;
 }
-
+/*
 @font-face {
 	font-family: 'Raleway';
 	src: url('../assets/fonts/Raleway-Light.eot');
@@ -19,7 +19,7 @@
 		url('../assets/fonts/Raleway-Light.svg#Raleway-Light') format('svg');
 	font-weight: 300;
 	font-style: normal;
-}
+}*/
 
 @font-face {
 	font-family: 'Playfair Display';
@@ -166,7 +166,7 @@ nav ul {
   }
   
   nav ul li {
-    list-style:none;
+    list-style: none;
     margin: 0 2%;
     text-transform: uppercase;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
