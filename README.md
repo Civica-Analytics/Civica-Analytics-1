@@ -36,3 +36,5 @@ Here are the gifs we used on our slides to demo our features. You can also see t
 <img src="assets/images/civicasidebar.gif" alt="Civica Analytics Sidebar Demo" width=80%/>  
 <h3>Civica Analytics Data Visualization Demo</h3>
 <img src="assets/images/civicagraphdemo.gif" alt="Civica Analytics Data Visualization Demo" width=80%/>
+<h3>Civica Analytics Links Demo</h3>
+<img src="assets/images/civicalinksdemo.gif" alt="Civica Analytics Links Demo" width=80%/>
