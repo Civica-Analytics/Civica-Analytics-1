@@ -481,5 +481,7 @@ footer {
   background-color: rgb(150, 183, 206);
 }
 
-
+.chart-title {
+	text-align: center;
+}
 
