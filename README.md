@@ -1,5 +1,6 @@
 # Civica-Analytics
 **By [Anahita Hassan](https://github.com/anahitahassan), [Kayley Seow](https://github.com/kayleyseow), [Swarnya Srivastava](https://github.com/Swarnya246), and [Natalie Zhou](https://github.com/nataliezhou)**   
+**Take a look at our [submission on Devpost](https://devpost.com/software/civica-analytics), our [YouTube video](https://www.youtube.com/watch?v=QnfZzjF3QG4&feature=emb_title), and [our presentation slides](https://docs.google.com/presentation/d/1-NkSIkW93LOq1gz7m8_rtd8YEoneQhrWCHyqq1bHpfE/edit?usp=sharing).**  
 <img src="assets/images/logo2.png" alt="Civica Analytics Logo" width=60%/>  
 
 ## 📈What it does
@@ -31,10 +32,10 @@ https://news.gallup.com/poll/247025/democratic-states-exceed-republican-states-f
 ## 📈Demo  
 Here are the gifs we used on our slides to demo our features. You can also see them on our website, but they are here in gif form just in case you don't feel like visiting the website. Don't worry, we understand, our gifs are pretty cool.  
 ### Scrollthrough the Civica Analytics Website
-<img src="assets/images/civicascrollthrough.gif" alt="Scrollthrough the Civica Analytics Website" width=80%/>  
+<img src="assets/images/civicascrollthrough.gif" alt="Scrollthrough the Civica Analytics Website" width=100%/>  
 <h3>Civica Analytics Sidebar Demo</h3>
-<img src="assets/images/civicasidebar.gif" alt="Civica Analytics Sidebar Demo" width=80%/>  
+<img src="assets/images/civicasidebar.gif" alt="Civica Analytics Sidebar Demo" width=100%/>  
 <h3>Civica Analytics Data Visualization Demo</h3>
-<img src="assets/images/civicagraphdemo.gif" alt="Civica Analytics Data Visualization Demo" width=80%/>
+<img src="assets/images/civicagraphdemo.gif" alt="Civica Analytics Data Visualization Demo" width=100%/>
 <h3>Civica Analytics Links Demo</h3>
-<img src="assets/images/civicalinksdemo.gif" alt="Civica Analytics Links Demo" width=80%/>
+<img src="assets/images/civicalinksdemo.gif" alt="Civica Analytics Links Demo" width=100%/>
